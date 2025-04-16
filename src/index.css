@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@layer base {
+    :root {
+      --color-primary: #264065;
+      --color-secondary: #A9D6CB;
+      --color-gray: #909090;
+      --font-poppins: 'Poppins', sans-serif;
+    }
+  }
+
+
+@import "tailwindcss";
+
+
+body{
+  font-family: var(--font-poppins);
+}
+
+a {
+  color: var(--color-primary);
+}
+header nav a:hover {
+  color: var(--color-secondary);
+}
+a.signin:hover {
+  color:#176fe9;
+}
+header button {
+  background-color: var(--color-primary);
+}
+header button:hover {
+  background-color:  #1f4e8f;
+  cursor:pointer;
+}
+h1 {
+  color: var(--color-primary);
+}
+main div .pMain {
+  color: var(--color-gray)
+}
+main button {
+  background-color: var(--color-primary);
+}
+main button:hover {
+  background-color:  #1f4e8f;
+  cursor:pointer;
+}
+.Test {
+  background-color: var(--color-secondary);
+}
+section div div span {
+  color: var(--color-primary);
+}
+.redondeado {
+  background-color: var(--color-secondary);
+}
+.psection {
+  color: var(--color-gray);
+}
